@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.goodchat_water">
    <application
-        android:label="goodchat_water"
+        android:label="Echos"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

@@ -137,7 +137,7 @@ class _RegisterPageState extends State<RegisterPage> {
                                   TextStyle(color: Colors.white, fontSize: 24),
                             ),
                             onPressed: () {
-                              // register();
+                              register();
                             },
                           ),
                         ),
@@ -173,14 +173,10 @@ class _RegisterPageState extends State<RegisterPage> {
         _isLoading = true;
       });
       await authService
-          .registerUserWithEmailandPassword(fullName, email, password)
-          .then((value) async {
+          .registerUserWithEmailAndPassword(fullName, email, password)
+          .then((value) {
         if (value == true) {
-          // saving the shared preference state
-          // await HelperFunctions.saveUserLoggedInStatus(true);
-          // await HelperFunctions.saveUserEmailSF(email);
-          // await HelperFunctions.saveUserNameSF(fullName);
-          nextScreenReplace(context, const HomePage());
+          // save shared preference state
         } else {
           showSnackbar(context, Colors.red, value);
           setState(() {
