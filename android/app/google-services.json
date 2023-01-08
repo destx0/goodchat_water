@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "985666383209",
+    "project_id": "goodchat-water",
+    "storage_bucket": "goodchat-water.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985666383209:android:c59a92b896bb271db361f8",
+        "android_client_info": {
+          "package_name": "com.example.goodchat_water"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985666383209-7n8h7bvbpjrcu4plfj4v7eev8j3rri3s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.goodchat_water",
+            "certificate_hash": "e04ef14c1e4dad935ac230b375aabd740e400e6e"
+          }
+        },
+        {
+          "client_id": "985666383209-kj6glpanb0rus4tje5arbfaqob34obeu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDon9QxkT-1rV-14nvqtHcODfB9E-2Gw_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985666383209-kj6glpanb0rus4tje5arbfaqob34obeu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
